@@ -56,4 +56,14 @@ f1.1.txt m.45.txt sind jetzt in f2
 git rebase main -i  
 sync
 
-pull request
+pull request f2
+
+checkout main
+git branch --delete f2
+git fetch -p
+
+pull request f1
+
+checkout main
+git branch --delete f1
+git fetch -p
