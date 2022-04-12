@@ -78,7 +78,7 @@ edit master1.txt in both branches
 checkout f1
 git rebase main -i  
 pull request f1
-( der erste ist nur zum Üben )
+( der erste ist nur zum Üben, da sich nichts auf main geändert hat, passiert auch nichts )
 
 checkout f2
 git rebase main -i  
@@ -95,3 +95,5 @@ Could not apply 35d9357... feature2
 
 both
 git rebase --continue
+
+git branch --delete feature..
