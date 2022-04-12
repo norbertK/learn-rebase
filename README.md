@@ -70,8 +70,8 @@ git fetch -p
 
 ## plan
 
-new feature feature from main
-new feature feature from main
+new feature feature1 from main
+new feature feature2 from main
 
 edit master1.txt in both branches
 
