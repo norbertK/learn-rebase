@@ -48,3 +48,7 @@ vscode bietet sync an mit 2up 2down???
 > hint: its remote counterpart. Integrate the remote changes (e.g.
 > hint: 'git pull ...') before pushing again.
 > hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+sync geht
+
+f1.1.txt m.45.txt sind jetzt in f2
