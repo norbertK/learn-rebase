@@ -67,3 +67,19 @@ pull request f1
 checkout main
 git branch --delete f1
 git fetch -p
+
+## plan
+
+new feature feature from main
+new feature feature from main
+
+edit master1.txt in both branches
+
+checkout f1
+git rebase main -i  
+pull request f1
+( der erste ist nur zum Üben )
+
+checkout f2
+git rebase main -i  
+pull request f2
