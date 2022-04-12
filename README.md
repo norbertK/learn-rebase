@@ -83,3 +83,15 @@ pull request f1
 checkout f2
 git rebase main -i  
 pull request f2
+
+Auto-merging master1.txt
+CONFLICT (content): Merge conflict in master1.txt
+error: could not apply 35d9357... feature2
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 35d9357... feature2
+
+both
+git rebase --continue
