@@ -33,4 +33,9 @@ checkout main
 m.45.txt
 commit
 
-rebase f2 onto main
+rebase f2 onto main:
+checkout f2
+git rebase --onto main f1 f2
+
+soweit so gut - wie kommt das jetzt auf den server?
+vscode bietet sync an mit 2up 2down???
