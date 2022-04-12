@@ -52,3 +52,8 @@ vscode bietet sync an mit 2up 2down???
 sync geht
 
 f1.1.txt m.45.txt sind jetzt in f2
+
+git rebase main -i  
+sync
+
+pull request
