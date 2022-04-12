@@ -22,11 +22,15 @@ git fetch -p
 
 new feature f1 from main
 f1.1.txt
+commit
 new feature f2 from f1
 f2.123.txt
+commit
 checkout f1
 f1.234.txt
+commit
 checkout main
 m.45.txt
+commit
 
 rebase f2 onto main
