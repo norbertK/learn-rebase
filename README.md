@@ -33,4 +33,22 @@ checkout main
 m.45.txt
 commit
 
-rebase f2 onto main
+rebase f2 onto main:
+checkout f2
+git rebase --onto main f1 f2
+
+soweit so gut - wie kommt das jetzt auf den server?
+vscode bietet sync an mit 2up 2down???
+
+> git push origin f2:f2
+> To https://github.com/norbertK/learn-rebase.git
+> ! [rejected] f2 -> f2 (non-fast-forward)
+> error: failed to push some refs to 'https://github.com/norbertK/learn-rebase.git'
+> hint: Updates were rejected because the tip of your current branch is behind
+> hint: its remote counterpart. Integrate the remote changes (e.g.
+> hint: 'git pull ...') before pushing again.
+> hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+sync geht
+
+f1.1.txt m.45.txt sind jetzt in f2
